@@ -9,7 +9,6 @@ function make2DArray(cols, rows) {
 let grid;
 let cols;
 let rows;
-let frames = 200;
 let resetButton = document.getElementById('resetButton');
 let resSlider = document.getElementById('resSlider');
 let resValue = document.getElementById('resValue');
@@ -23,8 +22,6 @@ function setup() {
     createCanvas(window.innerWidth, window.innerHeight);
     cols = floor(width / resolution);
     rows = floor(height / resolution);
-
-    frameRate(frames);
     
     grid = make2DArray(cols, rows);
     for (let i = 0; i < cols; i++) {
