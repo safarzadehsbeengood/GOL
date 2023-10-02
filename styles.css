@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=JetBrains+Mono&family=Koulen&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'JetBrains Mono', monospace;
+}
+canvas {
+    display: block;
+}
+
+.options {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}  
+
+.res {
+    color: white;
+    font-size: 20px;
+}
+
+#resetButton {
+    background: transparent; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#resetButton:hover {
+    background-color: rgba(211, 211, 211, 0.418);
+}
+
+#resSlider {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    background: rgba(90, 90, 90, 0.582);
+    cursor: pointer;
+
+
+}
+
+#resSlider::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    background: rgb(133, 133, 133);
+    height: 1em;
+    width: 1em;
+}
+
+#resSlider::-webkit-slider-thumb:hover {
+    background: rgb(172, 172, 172);
+}
+
