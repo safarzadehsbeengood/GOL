@@ -15,7 +15,9 @@ canvas {
     text-align: center;
     flex-direction: row;
     justify-content: center;
+    background-color: #1E1E1E;
     align-items: center;
+    border-bottom: 5px solid #575656;
 }  
 
 .res {
@@ -37,7 +39,11 @@ canvas {
 }
 
 #resetButton:hover {
-    background-color: rgba(211, 211, 211, 0.418);
+    background-color: rgba(211, 211, 211, 0.062);
+}
+
+#resetButton:active {
+    background-color: rgba(124, 124, 124, 0.507);
 }
 
 #resSlider {
@@ -45,7 +51,8 @@ canvas {
     appearance: none;
     -webkit-appearance: none;
     outline: none;
-    background: rgba(90, 90, 90, 0.582);
+    border: 2px solid black;
+    background: rgb(190, 190, 190);
     cursor: pointer;
 
 
@@ -54,12 +61,12 @@ canvas {
 #resSlider::-webkit-slider-thumb {
     appearance: none;
     -webkit-appearance: none;
-    background: rgb(133, 133, 133);
+    background: rgba(0, 0, 0, 0.514);
     height: 1em;
     width: 1em;
 }
 
 #resSlider::-webkit-slider-thumb:hover {
-    background: rgb(172, 172, 172);
+    background: rgb(230, 230, 230);
 }
 
