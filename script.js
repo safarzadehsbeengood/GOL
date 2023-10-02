@@ -38,7 +38,7 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+    background(30);
 
     // Display current grid
     for (let i = 0; i < cols; i++) {
