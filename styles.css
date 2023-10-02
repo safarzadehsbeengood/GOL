@@ -13,15 +13,16 @@ canvas {
 .options {
     display: flex;
     text-align: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    padding: 10px 100px 10px 100px;
     background-color: #1E1E1E;
     align-items: center;
-    border-bottom: 5px solid #575656;
+    border-bottom: 2px solid #ffffff;
 }  
 
 .res {
-    color: white;
+    color: rgb(204, 204, 204);
     font-size: 20px;
 }
 
@@ -29,8 +30,8 @@ canvas {
     background: transparent; /* Green */
     border: none;
     color: white;
-    padding: 10px 20px;
     text-align: center;
+    width: 50px;
     text-decoration: none;
     display: inline-block;
     font-size: 28px;
@@ -52,7 +53,7 @@ canvas {
     -webkit-appearance: none;
     outline: none;
     border: 2px solid black;
-    background: rgb(190, 190, 190);
+    background: rgb(104, 104, 104);
     cursor: pointer;
 
 
